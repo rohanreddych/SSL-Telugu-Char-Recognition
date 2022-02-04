@@ -1,1 +1,0 @@
-# SSL-Telugu-Char-Recognition
