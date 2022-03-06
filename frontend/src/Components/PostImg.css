@@ -1,0 +1,32 @@
+.back{
+    background-color: whitesmoke;
+    border: dashed lightslategrey 3px;
+    height: 300px;
+    text-align: center;
+    font-size: larger;
+    vertical-align: middle;
+    border-radius: 3px;
+    margin: 10px 0;
+    padding: 75px 5px;
+}
+
+.back:hover{
+    border: 3px dashed lightskyblue;
+}
+
+.back:invalid{
+    border: solid red 4px;
+}
+
+.back:-moz-drag-over{
+    background-color: #a7e4af;
+}
+
+.front{
+    background-color: mediumaquamarine;
+    border: dashed lightslategrey 3px;
+    height: 300px;
+    text-align: center;
+    font-size: larger;
+    vertical-align: middle;
+}

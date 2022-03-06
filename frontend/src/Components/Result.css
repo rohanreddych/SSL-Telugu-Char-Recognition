@@ -1,0 +1,15 @@
+.img-frame {
+    height: 480px;      /* Equals maximum image height */
+    /* line-height: 4; */
+    width: 854px;
+    /* border: 1px solid red; */
+
+    text-align: center;
+    margin: 1em 0;
+}
+img {
+    background: #3A6F9A;
+    vertical-align: middle;
+    max-height: 480px;
+    max-width: 854px;
+}
