@@ -1,0 +1,10 @@
+import django_filters.rest_framework
+from rest_framework import viewsets
+from .serializers import ImageSerializer
+from ..models import Image
+
+class ImageViewSet(viewsets.ModelViewSet):
+    queryset = Image.objects.all().order_by('-uploaded')
+    serializer_class = ImageSerializer
+    filter_backends = [django_filters.rest_framework.DjangoFilterBackend]
+    filterset_fields = ['uid', 'id']
